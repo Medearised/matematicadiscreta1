@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matemática discreta 1</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+  <main class="app">
+
+    <header class="header">
+      <h1>Matemática discreta 1</h1>
+      <p>Expressões algébricas, lógica, conjuntos e funções</p>
+    </header>
+
+    <section class="settings">
+      <select id="area">
+        <option value="algebra">Expressões Algébricas</option>
+        <option value="logica">Proposições Lógicas</option>
+        <option value="conjuntos">Conjuntos</option>
+        <option value="funcoes">Funções</option>
+      </select>
+
+      <select id="nivel">
+        <option value="facil">Fácil</option>
+        <option value="medio">Médio</option>
+        <option value="dificil">Difícil</option>
+      </select>
+    </section>
+
+    <section class="exercise">
+      <span class="label">Exercício</span>
+      <div class="question"></div>
+    </section>
+
+    <section class="response">
+      <input type="text" placeholder="Digite sua resposta" />
+      <button class="primary">Responder</button>
+    </section>
+
+    <section class="help">
+      <button class="secondary">Preciso de ajuda</button>
+      <div class="hint"></div>
+    </section>
+
+    <footer class="footer">
+      <button class="ghost">Novo exercício</button>
+    </footer>
+
+  </main>
+
+  <script src="JS/generator.js"></script>
+  <script src="JS/app.js"></script>
+</body>
+</html>
